@@ -15,5 +15,5 @@ Instruction Program::operator[] (size_t index) {
 }
 
 size_t Program::length() {
-  return (*code).size();
+  return code->size();
 }
